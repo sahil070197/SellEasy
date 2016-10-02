@@ -7,6 +7,8 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:id="@+id/detail_image"
+        android:elevation="5dp"
+        android:scaleType="fitXY"
         />
     <RelativeLayout
         android:layout_width="match_parent"
@@ -65,10 +67,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="contact"
-
+android:id="@+id/call"
         />
 
     <Button
+        android:id="@+id/fav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="add to favourite"/>
