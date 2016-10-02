@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/detail_image"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="200dp"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/detil_image">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:gravity="left"            android:text="frtg"
+
+            android:minHeight="40dp"
+            android:textAlignment="gravity"
+            android:id="@+id/detail_name"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_name"
+            android:id="@+id/detail_price"
+            android:textSize="30sp"
+            android:text="frtg"
+            android:minHeight="40dp"            android:layout_marginBottom="40dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_price"
+            android:id="@+id/detail_seller_name"
+            android:gravity="right"
+            android:text="frtg"
+            android:paddingTop="10dp"
+            android:textSize="20dp"
+            android:textAlignment="gravity"
+            android:minHeight="40dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_seller_name"
+            android:id="@+id/detail_username"
+            android:gravity="right"
+            android:paddingTop="10dp"
+            android:text="frtg"
+            android:textAlignment="gravity"
+            android:minHeight="40dp"
+
+            />
+        </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="contact"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add to favourite"/>
+
+
+</LinearLayout>
